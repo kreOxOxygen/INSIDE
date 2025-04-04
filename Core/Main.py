@@ -212,7 +212,7 @@ def main(page: Page):
     feedback = Switch(label='Сервисы обратной связи (?)', value=True if check_config()['feedback'] == 'True' else False, width=280, active_color=color, on_change=feedback_change, tooltip='Сервисы, которые оставляют заявки (по типу подключения\nинтернета или взятия кредита) на разных сайтах. Будьте осторожны\nпри использовании данной функции!')
 
     # Запуск атаки
-    attack_button = ElevatedButton(content=Text('Атака', size=25), on_click=checking_values, width=190, height=60, color=color, url=URL_CHANNEL, autofocus=True)
+    attack_button = ElevatedButton(content=Text('Атака', size=25), on_click=checking_values, width=190, height=60, color=color, autofocus=True)
 
 
 
