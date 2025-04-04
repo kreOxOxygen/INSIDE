@@ -9,7 +9,7 @@ VERSION = '1.07'
 MY_COLOR = 'deeppurpleaccent100'
 
 # Ссылка на канал
-URL_CHANNEL = ''
+URL_CHANNEL = 'https://127.0.0.1:9876'
 
 # Название конфига
 CONFIG_NAME = 'config.json'
