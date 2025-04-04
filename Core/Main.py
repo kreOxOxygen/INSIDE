@@ -154,12 +154,12 @@ def main(page: Page):
                         try:
                             int(replay.value)
                             if replay.value.isdigit() == True:
-                                if int(replay.value) > 0 and int(replay.value) < 51:
+                                if int(replay.value) > 0 and int(replay.value) < 101:
                                     if check_config()['attack'] == 'False':
                                         confirmation()
                                     else:error('Слишком много атак, подождите!')
                                 else:
-                                    error('Введите количество кругов, от 1 до 50!')
+                                    error('Введите количество кругов, от 1 до 100!')
                                     replay.focus()
                             else:
                                 error('Введите количество кругов без каких либо символов!')
@@ -228,9 +228,9 @@ def main(page: Page):
                 feedback,
                 attack_button,
                 Text('\n', size=12),
-                Row([IconButton(icon='telegram', icon_size=48, tooltip='Канал', url='https://t.me/+z4L61XedSVllODAy', icon_color=color),
-                    IconButton(icon='telegram', icon_size=48, tooltip='Владелец', url='https://t.me/A_KTO_Tbl', icon_color=color),
-                    IconButton(icon='attach_money', icon_size=48, tooltip='Донат', url='https://www.donationalerts.com/r/inside_forever', icon_color=color),
+                Row([IconButton(icon='telegram', icon_size=48, tooltip='Канала.нет.блет', url='https://127.0.0.1:9876', icon_color=color),
+                    IconButton(icon='telegram', icon_size=48, tooltip='Владелец', url='https://127.0.0.1:9876', icon_color=color),
+                    IconButton(icon='attach_money', icon_size=48, tooltip='Донат', url='https://127.0.0.1:9876', icon_color=color),
                     IconButton(icon='info', icon_size=48, tooltip='Информация', icon_color=color, on_click=information)], alignment='CENTER'),
                 Row([IconButton(icon='color_lens_sharp', icon_size=48, tooltip='Цвет (рандом)', icon_color=color, on_click=color_change),
                     IconButton(icon='mode_night', icon_size=48, tooltip='Тема', on_click=theme_change, icon_color=color)], alignment='CENTER'))
