@@ -13,7 +13,7 @@
 # 🐧 Linux
 - **Установка**
   ```
-  git clone https://github.com/A-KTO-Tbl/INSIDE && cd INSIDE && pip3 install -r Core/requirements.txt
+  git clone https://github.com/kreoxoxygen/INSIDE && cd INSIDE && pip3 install -r Core/requirements.txt
   ```
 - **Запуск с графическим интерфейсом**
   ```
@@ -38,14 +38,9 @@
       ```
 - **Установка**
   ```
-  git clone https://github.com/A-KTO-Tbl/INSIDE && cd INSIDE && pip install -r Core/requirements.txt
+  git clone https://github.com/kreoxoxygen/INSIDE && cd INSIDE && pip install -r Core/requirements.txt
   ```
 - **Запуск с web интерфейсом**
   ```
   python WEB.py
   ```
-
-# ⚡️ Дополнительно
-- **Наш Telegram канал ~> [КЛИК](https://t.me/+z4L61XedSVllODAy). Подписка на него - самая лучшая поддержка и мотивация продолжать данный проект💜**
-- **[Владелец](https://t.me/A_KTO_Tbl)**
-- **[DonationAlerts](https://www.donationalerts.com/r/inside_forever)**
