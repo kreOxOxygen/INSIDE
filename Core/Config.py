@@ -9,7 +9,7 @@ VERSION = '1.07'
 MY_COLOR = 'deeppurpleaccent100'
 
 # Ссылка на канал
-URL_CHANNEL = 'https://t.me/+z4L61XedSVllODAy'
+URL_CHANNEL = ''
 
 # Название конфига
 CONFIG_NAME = 'config.json'
