@@ -2,10 +2,10 @@ from colorama import Fore
 
 
 _banner1 = '''
-88  88 888888 88     88      dP"Yb 
-88  88 88__   88     88     dP   Yb 
-888888 88""   88  .o 88  .o Yb   dP 
-88  88 888888 88ood8 88ood8  YbodP
+    88  88 888888 88     88      dP"Yb 
+=== 88  88 88__   88     88     dP   Yb ===
+=== 888888 88""   88  .o 88  .o Yb   dP ===
+    88  88 888888 88ood8 88ood8  YbodP  
 '''
 
 _banner = '''
